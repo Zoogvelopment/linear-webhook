@@ -11,7 +11,8 @@ bug-reports: "https://github.com/zoogvelopment/linear-webhook/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.15"}
-  "trail"
+  "dream"
+  "logs"
   "odoc" {with-doc}
 ]
 build: [

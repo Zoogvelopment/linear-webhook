@@ -1,6 +1,6 @@
-module Server = struct
-  let start () = 
-    Riot.Logger.set_log_level (Some Debug)
-end
+let () =
+  Dream.run
+  @@ Dream.logger
+  @@ Dream.router [ Dream.get "/healthcheck" (fun _ -> Dream.respond "OK") ]
+;;
 
-let () = Riot.start ~apps:[(module Riot.Logger)] ()

@@ -17,6 +17,6 @@
  (name linear_webhook)
  (synopsis "Linear webhook relay")
  (description "Forwards Linear webhook events to Discord")
- (depends ocaml dune trail)
+ (depends ocaml dune dream lwt_ppx)
  (tags
   (discord webhook linear)))
