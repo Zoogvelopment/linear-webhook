@@ -1,0 +1,4 @@
+(executable
+ (public_name linear_webhook)
+ (name main)
+ (libraries trail riot))
