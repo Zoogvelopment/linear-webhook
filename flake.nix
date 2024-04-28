@@ -51,6 +51,9 @@
             propagatedBuildInputs = with ocamlPackages; [
               dream
               lwt_ppx
+              ppx_deriving_yojson
+              mirage-crypto
+              iso8601
             ];
             src = ./.;
           };

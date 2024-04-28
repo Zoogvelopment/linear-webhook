@@ -17,6 +17,6 @@
  (name linear_webhook)
  (synopsis "Linear webhook relay")
  (description "Forwards Linear webhook events to Discord")
- (depends ocaml dune dream lwt_ppx)
+ (depends ocaml dune dream lwt_ppx ppx_deriving_yojson mirage-crypto)
  (tags
   (discord webhook linear)))

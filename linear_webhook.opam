@@ -12,7 +12,9 @@ depends: [
   "ocaml"
   "dune" {>= "3.15"}
   "dream"
-  "logs"
+  "lwt_ppx"
+  "ppx_deriving_yojson"
+  "mirage-crypto"
   "odoc" {with-doc}
 ]
 build: [
