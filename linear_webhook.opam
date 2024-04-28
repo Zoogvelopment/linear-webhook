@@ -14,7 +14,8 @@ depends: [
   "dream"
   "lwt_ppx"
   "ppx_deriving_yojson"
-  "mirage-crypto"
+  "digestif"
+  "dotenv"
   "odoc" {with-doc}
 ]
 build: [

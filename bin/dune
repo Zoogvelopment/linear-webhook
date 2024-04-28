@@ -1,5 +1,5 @@
 (executable
  (public_name linear_webhook)
  (name main)
- (libraries dream ppx_deriving_yojson mirage-crypto)
+ (libraries dream ppx_deriving_yojson digestif.c dotenv)
  (preprocess (pps lwt_ppx)))
